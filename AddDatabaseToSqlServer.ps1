@@ -64,7 +64,7 @@ Invoke-Sqlcmd `
   -Password $password `
   -Query $query
 
-
+exit 0
 
 <#
 $fileList = Invoke-Sqlcmd `
